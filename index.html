@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
+  <title>URL 302 Redirect</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>302</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <style type="text/css">
   html,
@@ -28,8 +27,8 @@
     box-shadow: none;
     border-radius: 4px;
     z-index: 3;
-    padding: 8px 24px;
-    width: 600px;
+    padding: 8px 16px;
+    width: 450px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -39,10 +38,11 @@
     color: white;
     border: 1px solid #0170fe;
     box-shadow: none;
-    padding: 8px 24px;
+    padding: 8px 16px;
     border-radius: 4px;
     height: auto;
     cursor: pointer;
+    width: 150px;
     font-size: 16px;
   }
 
@@ -50,41 +50,49 @@
     color: rgba(0, 0, 0, .85);
     margin-top: 8px;
     word-break: break-all;
-    width: 600px;
+    width: 100%;
     font-size: 16px;
   }
 </style>
 
 <body>
   <div id="container">
-    <input id="url" placeholder="请输入你要跳转的网址"></input>
-    <button id="copy">拷贝</button>
+    <input id="url" placeholder="需重定向的 URL / The URL that needs to be redirected"></input>
+    <button id="copy">复制 / Copy</button>
     <div id="show"></div>
   </div>
 </body>
 
 <script type="text/javascript">
   function init() {
-    //解析当前网址，储存到一个叫做 current 的变量。
+    // 解析当前网址，储存到一个叫做 current 的变量。
     const current = new URL(window.location.href);
-    //获取输入框
+    // 获取输入框
     const input = document.getElementById('url');
 
-    //监听输入框的输入
+    // 监听输入框的输入
     input.addEventListener('input', e => {
-      //获取输入框的内容，设置到 current 的 location 参数
+      // 获取输入框的内容，设置到 current 的 location 参数
       current.searchParams.set('location', e.target.value);
-      //更新永久链接
-      document.getElementById('show').innerText = `永久连接: ${current.toString()}`
+      // 更新永久链接
+      let url_list = current.toString().split('?')
+      // document.getElementById('show').innerText = `${current.toString()}`
+      document.getElementById('show').innerText = `${url_list[0]}?\n${url_list[1]}`
     });
 
     const button = document.getElementById('copy');
-    //监听拷贝按钮
+    // 监听拷贝按钮
     button.addEventListener('click', () => {
       document.execCommand('copy');
     });
+    // 监听输入框中回车事件
+    input.addEventListener('keydown', e => {
+      if (e.keyCode == 13) {
+        document.execCommand('copy');
+      }
+    });
 
-    document.addEventListener('copy', function (e) {
+    document.addEventListener('copy', e => {
       e.clipboardData.setData('text/plain', current.toString());
       e.preventDefault();
     });
