@@ -1,6 +1,6 @@
 # URL Scheme 挂件 / widget-url-scheme
 
-> 本项目从 [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/blob/main/LICENSE)* 分叉, 感谢原作者 [DiamondYuan](https://github.com/DiamondYuan) :heart:<br>This project forked from [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/blob/main/LICENSE)*, thanks to the original author [DiamondYuan](https://github.com/DiamondYuan) :heart:.
+> 本项目从 [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/DiamondYuan/302/blob/main/LICENSE)* 分叉, 感谢原作者 [DiamondYuan](https://github.com/DiamondYuan) :heart:<br>This project forked from [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/DiamondYuan/302/blob/main/LICENSE)*, thanks to the original author [DiamondYuan](https://github.com/DiamondYuan) :heart:.
 
 一个可将 URL Scheme 转换为 HTTP 302 重定向地址的挂件<br>
 A widget that converts the URL Scheme to HTTP 302 redirection.
