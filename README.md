@@ -36,8 +36,8 @@ The widget has been put on the shelves at [SiYuan community bazaar](https://gith
 
 ### 手动 / MANUAL
 
-1. 在 [./releases](./releases) 中下载发行包, 解压后放到[思源笔记](https://github.com/siyuan-note/siyuan)`<工作空间>/data/widgets/` 目录下<br>
-   Download the release package in [./releases](./releases), unzip it and place it in the `<workspace>/data/widgets/` directory of [SiYuan Note](https://github.com/siyuan-note/siyuan).
+1. 在 [Releases](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/releases) 中下载发行包, 解压后放到[思源笔记](https://github.com/siyuan-note/siyuan)`<工作空间>/data/widgets/` 目录下<br>
+   Download the release package in [Releases](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/releases), unzip it and place it in the `<workspace>/data/widgets/` directory of [SiYuan Note](https://github.com/siyuan-note/siyuan).
 2. 在笔记中创建一个 `IFrame` 块, 地址填 `/widgets/widget-url-scheme` 即可<br>
    Create an `IFrame` block in your notes with the address filled in `/widgets/widget-url-scheme`.
 
