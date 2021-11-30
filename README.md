@@ -1,6 +1,6 @@
 # URL Scheme 挂件 / widget-url-scheme
 
-<center>
+<p align="center">
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-url-scheme?include_prereleases)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme)
@@ -8,7 +8,7 @@
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/Zuoqiu-Yingyi/widget-url-scheme?label=hits)
 ![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total)
 
-</center>
+</p>
 
 > 本项目从 [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/DiamondYuan/302/blob/main/LICENSE)* 分叉, 感谢原作者 [DiamondYuan](https://github.com/DiamondYuan) :heart:<br>This project forked from [DiamondYuan/302](https://github.com/DiamondYuan/302) *[MIT License](https://github.com/DiamondYuan/302/blob/main/LICENSE)*, thanks to the original author [DiamondYuan](https://github.com/DiamondYuan) :heart:.
 
