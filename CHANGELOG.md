@@ -2,7 +2,7 @@
 
 ## v0.1.1/2022-01-13
 
-- 配色跟随主题切换 | The color matching follows the theme switch.
+- 配色跟随主题切换 | The color scheme follows the global theme.
 - 添加 `.gitignore` 配置文件 | Add the `.gitignore` configuration file.
 
 ## v0.1.0/2021-11-18
