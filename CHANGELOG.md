@@ -1,5 +1,7 @@
 # 更改日志/CHANGE LOG
 
+- 配色跟随主题切换 | The color matching follows the theme switch.
+
 ## v0.1.0/2021-11-18
 
 - 从原项目 [DiamondYuan/302](https://github.com/DiamondYuan/302) 分叉 / forked from [DiamondYuan/302](https://github.com/DiamondYuan/302)

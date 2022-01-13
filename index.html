@@ -19,10 +19,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--b3-theme-background);
   }
 
   #url {
-    background: #fff;
+    background-color: var(--b3-theme-surface);
+    color: var(--b3-theme-on-surface);
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 4px;
@@ -34,7 +36,7 @@
   }
 
   #copy {
-    background: #0170fe;
+    background-color: #0170fe;
     color: white;
     border: 1px solid #0170fe;
     box-shadow: none;
@@ -47,7 +49,7 @@
   }
 
   #show {
-    color: rgba(0, 0, 0, .85);
+    color: var(--b3-theme-on-background);
     margin-top: 8px;
     word-break: break-all;
     width: 100%;
@@ -64,6 +66,16 @@
 </body>
 
 <script type="text/javascript">
+  let themeDefaultStyle = window.parent.document.getElementById('themeDefaultStyle');
+  let themeStyle = window.parent.document.getElementById('themeStyle');
+  let head = document.getElementsByTagName('HEAD').item(0);
+
+  head.appendChild(themeDefaultStyle.cloneNode(true));
+  if (themeStyle != null) {
+    head.appendChild(themeStyle.cloneNode(true));
+  }
+
+
   function init() {
     // 解析当前网址，储存到一个叫做 current 的变量。
     const current = new URL(window.location.href);
