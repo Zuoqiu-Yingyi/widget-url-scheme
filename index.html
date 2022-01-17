@@ -19,11 +19,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--b3-theme-background);
+    background-color: transparent;
   }
 
   #url {
-    background-color: var(--b3-theme-surface);
+    background-color: transparent;
     color: var(--b3-theme-on-surface);
     border: 1px solid #dfe1e5;
     box-shadow: none;
@@ -70,11 +70,12 @@
   let themeStyle = window.parent.document.getElementById('themeStyle');
   let head = document.getElementsByTagName('HEAD').item(0);
 
-  head.appendChild(themeDefaultStyle.cloneNode(true));
+  if (themeDefaultStyle != null) {
+    head.appendChild(themeDefaultStyle.cloneNode(true));
+  }
   if (themeStyle != null) {
     head.appendChild(themeStyle.cloneNode(true));
   }
-
 
   function init() {
     // 解析当前网址，储存到一个叫做 current 的变量。
