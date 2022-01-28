@@ -6,6 +6,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme)
 ![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-url-scheme)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-url-scheme)
+![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-url-scheme)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/Zuoqiu-Yingyi/widget-url-scheme?label=hits)
 ![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total)
 
