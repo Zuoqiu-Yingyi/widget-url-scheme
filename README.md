@@ -2,13 +2,13 @@
 
 <center>
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-url-scheme?include_prereleases)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme)
-![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-url-scheme)
-![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-url-scheme)
-![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-url-scheme)
-![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/Zuoqiu-Yingyi/widget-url-scheme?label=hits)
-![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-url-scheme?include_prereleases&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
+![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
+![hits](https://hits.b3log.org/Zuoqiu-Yingyi/widget-url-scheme.svg)
+![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total?style=flat-square)
 
 </center>
 
