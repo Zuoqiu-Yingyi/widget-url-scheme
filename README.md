@@ -2,13 +2,13 @@
 
 <center>
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-url-scheme?include_prereleases&style=flat-square)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
-![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-url-scheme?include_prereleases&style=flat-square)](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/releases/latest)
+[![GitHub License](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/commits/main)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-url-scheme?style=flat-square)
 ![hits](https://hits.b3log.org/Zuoqiu-Yingyi/widget-url-scheme.svg)
-![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total?style=flat-square)
+[![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-url-scheme/total?style=flat-square)](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/releases)
 
 </center>
 
@@ -24,7 +24,7 @@ A widget that converts the URL Scheme to HTTP 302 redirection.
 
 ## 预览 | PREVIEW
 
-![preview.png](./preview.png)
+![preview](https://cdn.jsdelivr.net/gh/Zuoqiu-Yingyi/widget-url-scheme/preview.png)
 
 ## 功能 | FUNCTION
 
