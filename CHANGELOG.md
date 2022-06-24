@@ -1,5 +1,7 @@
 # 更改日志/CHANGE LOG
 
+- 移除失效的关闭窗口功能 | Removed the invalid close window function.
+
 ## v0.1.2/2022-01-17
 
 - 修复在非 iframe 模式下获取主题配置文件失败的问题 | Fix an issue where getting a theme configuration file in non-iframe mode.

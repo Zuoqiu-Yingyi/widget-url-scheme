@@ -112,10 +112,11 @@
 
     for (const queryName of ['location', 'goto']) {
       if (current.searchParams.get(queryName)) {
-        window.location.href = current.searchParams.get(queryName)
-        setTimeout(() => {
-          window.close();
-        }, 2000);
+        const url = current.searchParams.get(queryName)
+        window.location.href = url
+        // setTimeout(() => {
+        //   window.close();
+        // }, 2000);
         return
       }
     }
