@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+
 <style type="text/css">
     html,
     body {
@@ -18,6 +19,7 @@
     html {
         color: var(--b3-theme-on-background);
         background-color: var(--b3-theme-background);
+        user-select: none;
     }
 
     body {
@@ -27,16 +29,12 @@
         background-color: transparent;
     }
 
-    input:focus {
-        box-shadow: none;
-    }
-
     button {
         cursor: pointer;
         color: var(--b3-theme-primary);
         background-color: transparent;
         border: none;
-        box-shadow: inset 0 0 0 0.4px var(--b3-theme-primary);
+        box-shadow: inset 0 0 0 1px var(--b3-theme-primary-light);
         box-sizing: border-box;
     }
 
@@ -84,7 +82,6 @@
     }
 
     #show {
-        /* word-break: break-all; */
         margin: 0 1em;
         min-height: 3em;
     }
@@ -95,7 +92,7 @@
 
 </style>
 
-<body>
+<body style="display: none;">
     <div id="container">
         <div id="edit">
             <label class="edit-element"><input id="port" type="checkbox" />6806</label>
@@ -114,15 +111,15 @@
 
         /* 是否跳转 */
         for (const key of [SEARCH_PARAM_KEY, 'goto']) {
-            const value = url.searchParams.get(key);
-            if (value) {
-                window.location.href = value
-                // setTimeout(() => {
-                //   window.close();
-                // }, 2000);
+            const target = url.searchParams.get(key);
+            if (target) {
+                setTimeout(open(window.location, '_self').close, 1000); // 1s 后自动关闭页签/窗口
+                window.location.href = target;
                 return;
             }
         }
+
+        document.body.style.display = ""; // 显示内容
 
         /* 样式相关 */
         const widget = window.top === window.self; // 是否为挂件
@@ -155,13 +152,13 @@
         const copy = document.getElementById('copy');
         const show = document.getElementById('show');
 
-
         /* 回显 URL */
         function updatePreview() {
             show.innerText = `${url.origin}${url.pathname}\n${url.search}`;
         }
         updatePreview();
 
+        /* 监听端口复选框更改 */
         port.addEventListener('change', e => {
             if (e.target.checked) {
                 url.port = 6806;
@@ -170,9 +167,12 @@
                 url.port = location.port;
             }
             updatePreview();
+
+            e.preventDefault();
+            e.stopPropagation();
         });
 
-        // 监听输入框的输入
+        /* 监听输入框的输入 */
         input.addEventListener('input', e => {
             const target = e.target.value;
             if (target) {
@@ -182,26 +182,34 @@
                 url.searchParams.delete(SEARCH_PARAM_KEY);
             }
             updatePreview();
-        });
 
-        /* 写入剪贴板 */
+            e.preventDefault();
+            e.stopPropagation();
+        }, true);
+
+        /* 监听复制事件 */
         document.addEventListener('copy', e => {
             e.clipboardData.setData('text/plain', url.toString());
             e.clipboardData.setData('text/html', `<a href="${url.toString()}">${url.searchParams.get(SEARCH_PARAM_KEY) ?? 'URL Scheme'}</a>`);
             e.preventDefault();
-        });
+            e.stopPropagation();
+        }, true);
 
         /* 监听复制按钮 */
-        copy.addEventListener('click', () => {
+        copy.addEventListener('click', e => {
             document.execCommand('copy');
-        });
+            e.preventDefault();
+            e.stopPropagation();
+        }, true);
 
         /* 监听输入框中回车事件 */
         input.addEventListener('keydown', e => {
             if (e.key === 'Enter') {
                 document.execCommand('copy');
+                e.preventDefault();
+                e.stopPropagation();
             }
-        });
+        }, true);
     })();
 </script>
 

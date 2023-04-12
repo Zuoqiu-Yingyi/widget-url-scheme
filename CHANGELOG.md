@@ -2,6 +2,7 @@
 
 - 移除失效的关闭窗口功能 | Removed the invalid close window function.
 - 新增强制使用 6806 端口的选项 | Added an option to force the use of port 6806.
+- 修复自动关闭窗口功能 | Fix the automatic close window function.
 
 ## v0.1.2/2022-01-17
 
