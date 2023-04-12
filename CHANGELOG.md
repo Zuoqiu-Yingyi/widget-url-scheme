@@ -1,5 +1,7 @@
 # 更改日志/CHANGE LOG
 
+## v0.2.1/2023-04-13
+
 - [v0.2.0 ... v0.2.1](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.2.0...v0.2.1)
 - 设置默认配色 | Set the default color scheme.
 - 更新文档 | Update the documentation.
