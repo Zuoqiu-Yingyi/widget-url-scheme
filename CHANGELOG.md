@@ -1,19 +1,24 @@
 # 更改日志/CHANGE LOG
 
+- [v0.2.0 ... v0.2.1](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.2.0...v0.2.1)
 - 设置默认配色 | Set the default color scheme.
+- 更新文档 | Update the documentation.
 
 ## v0.2.0/2023-04-13
 
+- [v0.1.2 ... v0.2.0](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.1.2...v0.2.0)
 - 移除失效的关闭窗口功能 | Removed the invalid close window function.
 - 新增强制使用 6806 端口的选项 | Added an option to force the use of port 6806.
 - 修复自动关闭窗口功能 | Fix the automatic close window function.
 
 ## v0.1.2/2022-01-17
 
+- [v0.1.1 ... v0.1.2](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.1.1...v0.1.2)
 - 修复在非 iframe 模式下获取主题配置文件失败的问题 | Fix an issue where getting a theme configuration file in non-iframe mode.
 
 ## v0.1.1/2022-01-13
 
+- [v0.1.0 ... v0.1.1](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.1.0...v0.1.1)
 - 配色跟随主题切换 | The color scheme follows the global theme.
 - 添加 `.gitignore` 配置文件 | Add the `.gitignore` configuration file.
 

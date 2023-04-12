@@ -39,6 +39,11 @@ A widget that converts the URL Scheme to HTTP 302 redirection.
   - 在浏览器中访问 `HTTP URL` 将重定向至 `URL Scheme`  
     Redirect to `URL Scheme` when accessing `HTTP URL` in the browser.
 - 跟随全局主题更改颜色 | Follow the global theme to change the color.
+- 跳转完成后自动关闭页签 | Automatically close the tab after the jump is completed.
+- 勾选 `6806` 复选框以将超链接的端口设置为 6806 端口  
+  Tick the `6806` checkbox to set the hyperlink's port to port 6806.
+  - 思源内核在使用随机端口号时会同时监听 `6806` 端口  
+    The SiYuan kernel listens on port `6806` at the same time when using a random port number.
 
 ## 开始 | START
 
