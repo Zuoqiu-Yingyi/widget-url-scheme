@@ -1,5 +1,7 @@
 # 更改日志/CHANGE LOG
 
+- 设置默认配色 | Set the default color scheme.
+
 ## v0.2.0/2023-04-13
 
 - 移除失效的关闭窗口功能 | Removed the invalid close window function.
