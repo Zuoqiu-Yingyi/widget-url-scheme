@@ -2,7 +2,7 @@
   "name": "url-scheme",
   "author": "Zuoqiu-Yingyi",
   "url": "https://github.com/Zuoqiu-Yingyi/widget-url-scheme",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "displayName": {
     "default": "URL Scheme",
     "zh_CN": "URL 协议",
