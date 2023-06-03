@@ -1,6 +1,7 @@
 # 更改日志/CHANGE LOG
 
 - 完善清单文件内容 | Improve the content of the manifest file.
+- 中英文文档分离 | Separate Chinese and English documents.
 
 ## v0.2.1/2023-04-13
 
