@@ -1,5 +1,7 @@
 # 更改日志/CHANGE LOG
 
+- 完善清单文件内容 | Improve the content of the manifest file.
+
 ## v0.2.1/2023-04-13
 
 - [v0.2.0 ... v0.2.1](https://github.com/Zuoqiu-Yingyi/widget-url-scheme/compare/v0.2.0...v0.2.1)

@@ -2,5 +2,29 @@
   "name": "url-scheme",
   "author": "Zuoqiu-Yingyi",
   "url": "https://github.com/Zuoqiu-Yingyi/widget-url-scheme",
-  "version": "0.2.1"
+  "version": "0.2.1",
+  "displayName": {
+    "default": "URL Scheme",
+    "zh_CN": "URL 协议",
+    "zh_CHT": "URL 協議"
+  },
+  "description": {
+    "default": "A widget that converts the URL Scheme to HTTP 302 redirection.",
+    "zh_CN": "一个可将 URL 协议转换为 HTTP 302 重定向地址的挂件。",
+    "zh_CHT": "一個可將 URL 協議轉換為 HTTP 302 重定向地址的掛件。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md",
+    "zh_CHT": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://afdian.net/a/zuoqiu",
+      "https://ko-fi.com/zuoqiu"
+    ]
+  }
 }
